@@ -1,0 +1,20 @@
+LibraryApp/
+├── client/                   # React frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── LibraryList.js    # Displays library list and status
+│   │   │   └── QueueStatus.js    # Shows queue status and alerts
+│   │   ├── App.js                # Main React component
+│   │   └── index.js              # Entry point for React
+│   ├── package.json              # Frontend dependencies
+│   └── public/
+│       └── index.html
+├── server/                   # Node.js backend
+│   ├── models/
+│   │   ├── User.js           # MongoDB user schema
+│   │   └── Queue.js          # MongoDB queue history schema
+│   ├── routes/
+│   │   └── api.js            # API endpoints
+│   ├── server.js             # Main server file
+│   └── package.json          # Backend dependencies
+└── README.md

@@ -1,0 +1,13 @@
+How to Run
+Setup MongoDB:
+Install MongoDB locally or use a cloud service (e.g., MongoDB Atlas).
+
+Update MONGO_URI in .env.
+
+Backend:
+bash
+
+-----------------------------NOTE-------------------------------------------------
+
+.env → server/.env (create this manually with your MONGO_URI)
+

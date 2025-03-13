@@ -1,0 +1,8 @@
+------------------------Run These In BASH----------------------------------------
+
+
+
+npx create-react-app client
+cd client && npm install axios
+cd .. && mkdir server
+cd server && npm init -y && npm install express mongoose axios dotenv cors
